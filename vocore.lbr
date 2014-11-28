@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -218,12 +218,12 @@ Found a bug? Get in touch or send a pull request at &lt;a href="https://github.c
 <connect gate="MOD$1" pin="GP25/LED3" pad="W12"/>
 <connect gate="MOD$1" pin="GP26/LED4" pad="W13"/>
 <connect gate="MOD$1" pin="GP27/SPI_CS1" pad="W8"/>
-<connect gate="MOD$1" pin="P0RN" pad="S16"/>
-<connect gate="MOD$1" pin="P0RP" pad="S15"/>
+<connect gate="MOD$1" pin="P0RN" pad="S12"/>
+<connect gate="MOD$1" pin="P0RP" pad="S11"/>
 <connect gate="MOD$1" pin="P0TN" pad="S9"/>
 <connect gate="MOD$1" pin="P0TP" pad="S10"/>
-<connect gate="MOD$1" pin="P4RN" pad="S12"/>
-<connect gate="MOD$1" pin="P4RP" pad="S11"/>
+<connect gate="MOD$1" pin="P4RN" pad="S16"/>
+<connect gate="MOD$1" pin="P4RP" pad="S15"/>
 <connect gate="MOD$1" pin="P4TN" pad="S13"/>
 <connect gate="MOD$1" pin="P4TP" pad="S14"/>
 <connect gate="MOD$1" pin="RESET" pad="N13"/>
